@@ -1,0 +1,11 @@
+.stack {
+    /* border: 1px solid #686868; */
+}
+
+.stack .grid-container{
+    grid-template-rows: var(--cell-h);
+    grid-template-columns: var(--cell-w);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,3 @@
+/Xception/my-xception/result/*.h5
+*.zip
+/node_modules/

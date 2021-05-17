@@ -1,0 +1,61 @@
+:root {
+  --grid-w: 5;
+  --grid-h: 5;
+  --cell-w: 30px;
+  --cell-h: 30px;
+
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,ol,li {
+  list-style: none;
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul.grid-container {
+  display: grid;
+  grid-template-rows: repeat(var(--grid-w), var(--cell-h));
+  grid-template-columns: repeat(var(--grid-h), var(--cell-w));
+  gap: 1px;
+}
+
+.App-siderbar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  height: 20vh;
+  padding: 20px;
+  border: 1px solid #000;
+  background: #282c34;
+  z-index: 1000;
+}
+
+.refresh_grid{
+  padding: 20px;
+}

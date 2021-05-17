@@ -1,0 +1,7 @@
+farm 
+house
+land 
+rail 
+river
+sea  
+tree

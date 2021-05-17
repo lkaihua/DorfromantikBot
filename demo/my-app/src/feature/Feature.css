@@ -1,0 +1,26 @@
+.any {
+    --feature-color: purple;
+}
+.river {
+    --feature-color: #20639B;
+}
+
+.land {
+    --feature-color: #aaaaaa;
+}
+
+.house {
+    --feature-color: #D85E48;
+}
+
+.farm {
+    --feature-color: #F6D55C;
+}
+
+.rail {
+    --feature-color: #5A5865;
+}
+
+.tree {
+    --feature-color: #0E5616;
+}
